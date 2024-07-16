@@ -3,5 +3,9 @@ I have used the ESP32 module as a microcontroller.
 The ouput data from the microcontroller are sent to the MySQL database using PHP via wifi.
 I have craeted a local host using XAMPP.
 The data are meant to be fetched to the Web Dashboard with the authentication.
+To prevent tempering, I've implement the Ultro Sonic Sensor so as to detect the opening of the box's cover.
+Similarly, The I've implement the auto turnoff provision if there is very high phase unbalance.
+The Postman app is used to GET and POST request in our local hosting.
+
 
 
